@@ -3,19 +3,19 @@ kind: Deployment
 metadata:
   creationTimestamp: null
   labels:
-    app: angular-webapp
-  name: angular-webapp
+    app: sample-webapp
+  name: sample-webapp
 spec:
   replicas: 10
   selector:
     matchLabels:
-      app: angular-webapp
+      app: sample-webapp
   strategy: {}
   template:
     metadata:
       creationTimestamp: null
       labels:
-        app: angular-webapp
+        app: sample-webapp
     spec:
       containers:
       - image: docker.io/bbachin1/angular-dotnet-webapp
