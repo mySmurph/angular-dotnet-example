@@ -7,3 +7,7 @@ sudo usermod -a -G docker ec2-user
 sudo chmod 666 /var/run/docker.sock
 sudo ln -s /usr/local/bin/docker-compose /usr/bin/docker-compose
 sudo service docker start
+
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash
+. ~/.nvm/nvm.sh
+nvm install v14.18.1
