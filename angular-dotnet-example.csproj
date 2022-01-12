@@ -39,7 +39,7 @@
     <!-- <Exec WorkingDirectory="$(SpaRoot)" Command="npm install" /> -->
     <Message Text="* * * * * * Building Angular App * * * * * *" Importance="high"/>
     <Exec WorkingDirectory="$(SpaRoot)" Command="npm run apppublish" />
-    <Exec WorkingDirectory="$(SpaRoot)" Command="npm run build:ssr -- --prod" Condition=" '$(BuildServerSideRenderer)' == 'true' " />
+    <!-- <Exec WorkingDirectory="$(SpaRoot)" Command="npm run build:ssr --prod" Condition=" '$(BuildServerSideRenderer)' == 'true' " /> -->
 
     <!-- Include the newly-built files in the publish output -->
     <ItemGroup>
