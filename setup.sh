@@ -8,6 +8,6 @@
 # sudo ln -s /usr/local/bin/docker-compose /usr/bin/docker-compose
 sudo service docker start
 
-sudo curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash
 . ~/.nvm/nvm.sh
-sudo nvm install v14.18.1
+nvm install v14.18.1
