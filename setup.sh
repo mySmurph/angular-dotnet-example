@@ -9,5 +9,5 @@
 sudo service docker start
 
 sudo curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash
-sudo . ~/.nvm/nvm.sh
+. ~/.nvm/nvm.sh
 sudo nvm install v14.18.1
